@@ -1,0 +1,24 @@
+/* SVG 파일을 배경 이미지로 불러옵니다 */
+.stampContainer {
+  position: relative;
+  width: 500px; /* 원하는 우표 너비 */
+  height: 500px; /* 원하는 우표 높이 */
+  background-image: url("../../../assets/stamp-border.svg"); /* SVG 파일 경로 */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.stampContent {
+  position: absolute;
+  top: 15px; /* SVG 테두리와 내용 사이 간격 */
+  left: 15px;
+  width: calc(100% - 30px);
+  height: calc(100% - 30px);
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: lightgray;
+}

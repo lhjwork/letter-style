@@ -14,6 +14,19 @@ module.exports = {
         spoqaMedium: ["SpoqaHanSansNeo-Medium"],
         spoqaBold: ["SpoqaHanSansNeo-Bold"],
       },
+
+      backgroundImage: {
+        "stamp-perfs-x": "radial-gradient(circle, transparent 5px, white 5px)",
+        "stamp-perfs-y": "radial-gradient(circle, transparent 5px, white 5px)",
+      },
+      backgroundSize: {
+        "stamp-perfs-x": "15px 10px",
+        "stamp-perfs-y": "10px 15px",
+      },
+      backgroundRepeat: {
+        "stamp-perfs-x": "repeat-x",
+        "stamp-perfs-y": "repeat-y",
+      },
     },
     screens: {
       ss: "480px",
